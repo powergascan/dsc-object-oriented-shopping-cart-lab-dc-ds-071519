@@ -4,7 +4,7 @@ class ShoppingCart(object):
         self.employee_discount=employee_discount
         self.items=items
     def add_item(self,item, price):
-        self.total=+price
+        self.total+=price
         self.items.append(item)
         print(self.total)
         
